@@ -23,15 +23,12 @@
   padding: .5rem 1rem;
 }
 
-
-
 .navigation ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
-
 
 .nav-list-item {
   text-decoration: none;
@@ -221,14 +218,36 @@
 }
 
 .pro-site-box{
+  font-family: sans-serif;
   list-style: none;
   display: flex;
   margin: 0;
   flex-wrap: wrap;
+  position: relative;
+
 }
 
 .pro-site-box img {
   filter:brightness(50%);
+}
+
+.pro-site-box h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  max-width: 100%;
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+.pro-site-box p {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: normal;
 }
 
 #studio {
@@ -272,9 +291,9 @@
 .studio-left-text {
   display: flex;
   flex-direction: column;
-  max-width: 45%;
+  max-width: 40%;
   margin:0;
-  padding: 0;
+  padding: 0 30px 0 0;
 }
 
 .studio-left-text p {
@@ -285,7 +304,7 @@
 
 .studio-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .studio-box-right {
@@ -303,10 +322,10 @@
   justify-content: center;
   flex-direction: column;
   margin: 0;
-  padding: 0;
+  padding: 0 100px 0 0;
 }
 .stud-number {
-  font-size: 36px;
+  font-size: 45px;
   margin: 5px 0 0 0;
   padding: 0;
 }
@@ -317,13 +336,106 @@
   padding: 0;
 }
 
-@media (min-width: 380px) {
+@media (max-width: 390px) {
+  .logo {
+    width: 100%;
+    display: block;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    font-size: 120%;
+  }
+
+  .contact-right {
+    display: block;
+    width: 100%;
+  }
+  .contact-number {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-email {
+    display: flex;
+    justify-content: center;
+  }
 
 }
-@media (min-width: 780px) {
+@media (max-width: 840px) {
 
+  .container {
+    text-align: center;
+  }
+  .list-product {
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+  }
+  .list-product-box {
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+  }
+  .desc-text {
+  }
+
+  .pro-site-box {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-img {
+    max-width: 100%;
+  }
+
+  .pro-site-box h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    letter-spacing: -2px;
+  }
+
+  .pro-site-box p {
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: normal;
+  }
+
+  .studio-content {
+    display: inline-block;
+    justify-content: center;
+    margin: 0;
+
+  }
+  .studio-left-text {
+    display: flex;
+    max-width: 80%;
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  .studio-box-right {
+    display: flex;
+    align-content: center;
+    margin: 0;
+    padding: 10px;
+    overflow:hidden;
+  }
 }
 
-@media (min-width: 1024px) {
-  
+@media (min-width: 1014px) {
+
 }

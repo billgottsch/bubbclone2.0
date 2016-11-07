@@ -54,7 +54,6 @@
   font-weight: bold;
   font-size: 18px;
   color: #4d4d4d;
-
 }
 
 .contact-email {
@@ -224,7 +223,6 @@
   margin: 0;
   flex-wrap: wrap;
   position: relative;
-
 }
 
 .pro-site-box img {
@@ -252,20 +250,17 @@
 
 #studio {
   padding: 10px 0 0 0;
-
 }
 
 .studio-container {
   padding: 0 0px;
   box-sizing: border-box;
   display: block;
-
 }
 
 .studio-text-center {
   width: 100%;
   text-align: center;
-
 }
 
 .studio-title {
@@ -278,7 +273,6 @@
   font-weight:400;
   margin: 0;
   text-align: center;
-
 }
 
 .studio-title-text p{
@@ -324,6 +318,7 @@
   margin: 0;
   padding: 0 100px 0 0;
 }
+
 .stud-number {
   font-size: 45px;
   margin: 5px 0 0 0;
@@ -354,6 +349,7 @@
     display: block;
     width: 100%;
   }
+
   .contact-number {
     display: flex;
     justify-content: center;
@@ -365,21 +361,25 @@
   }
 
 }
+
 @media (max-width: 840px) {
 
   .container {
     text-align: center;
   }
+
   .list-product {
     display: inline-block;
     width: 100%;
     text-align:center;
   }
+
   .list-product-box {
     width: 100%;
     display: inline-block;
     padding: 0;
   }
+
   .desc-text {
   }
 
@@ -418,8 +418,8 @@
     display: inline-block;
     justify-content: center;
     margin: 0;
-
   }
+
   .studio-left-text {
     display: flex;
     max-width: 80%;
@@ -434,8 +434,4 @@
     padding: 10px;
     overflow:hidden;
   }
-}
-
-@media (min-width: 1014px) {
-
 }
